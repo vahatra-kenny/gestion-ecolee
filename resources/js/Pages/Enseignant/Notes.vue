@@ -36,6 +36,12 @@ function ajouterNote() {
         onSuccess: () => formNote.reset(),
     });
 }
+// Supprimer étudiant
+function supprimerEtudiant(id) {
+    if (confirm("Supprimer cet étudiant ?")) {
+        formEtudiant.delete(`/enseignant/etudiants/${id}`);
+    }
+}
 
 // Calculs
 function calculNC(note, coef) {
@@ -78,6 +84,12 @@ function calculMoyenne(notes) {
                         {{ e.nom }}
                         <button @click="ouvrirNotes(e)" class="btn-primary">
                             Notes
+                        </button>
+                        <button
+                            @click="supprimerEtudiant(e.id)"
+                            class="btn-secondary"
+                        >
+                            🗑
                         </button>
                     </li>
                 </ul>
