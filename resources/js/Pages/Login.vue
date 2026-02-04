@@ -9,11 +9,7 @@ const form = useForm({
 </script>
 
 <template>
-    <link
-        rel="stylesheet"
-        href="/gestion-ecole/public/images/orientation.jpg"
-    />
-    <div class="login-container">
+    <div class="page-bg">
         <h1>Connexion</h1>
 
         <form @submit.prevent="form.post(route('login'))">
@@ -42,3 +38,12 @@ const form = useForm({
         </form>
     </div>
 </template>
+<style scoped>
+.page-bg {
+    min-height: 100vh;
+    background: url("/images/bg.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    padding: px;
+    font-family: "Inter", sans-serif;
+}
+</style>

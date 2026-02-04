@@ -198,8 +198,9 @@ function calculMoyenne(notes) {
 
 .page-bg {
     min-height: 100vh;
-    background: linear-gradient(180deg, #66b2ff 0%, #007bff 100%);
-    padding: 40px;
+    background: url("/images/images (2).jpeg") no-repeat center center fixed;
+    background-size: cover;
+    padding: px;
     font-family: "Inter", sans-serif;
 }
 .navbar {
@@ -234,7 +235,7 @@ function calculMoyenne(notes) {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 32px;
-    background: white;
+    background: rgb(175, 218, 245);
     border-radius: 16px;
     padding: 32px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);

@@ -48,7 +48,7 @@ import { Head, Link } from "@inertiajs/vue3";
 
         <div class="image-box">
             <img
-                src="/images/orientation.jpg"
+                src="/images/images (9).jpeg"
                 alt="Orientation universitaire"
                 class="center-image"
             />
@@ -64,10 +64,10 @@ import { Head, Link } from "@inertiajs/vue3";
 <style scoped>
 .page-bg {
     min-height: 100vh;
-    background: linear-gradient(180deg, #66b2ff 0%, #007bff 100%);
-    margin: 0;
-    padding: 0;
-    font-family: "Segoe UI", sans-serif;
+    background: url("/images/images (8).jpeg") no-repeat center center fixed;
+    background-size: cover;
+    padding: px;
+    font-family: "Inter", sans-serif;
 }
 
 /* Barre supérieure */

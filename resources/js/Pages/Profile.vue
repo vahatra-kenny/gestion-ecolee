@@ -57,12 +57,10 @@ const form = useForm({
 <style scoped>
 .page-bg {
     min-height: 100vh;
-    background: linear-gradient(180deg, #66b2ff 0%, #007bff 100%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px;
-    font-family: "Segoe UI", sans-serif;
+    background: url("/images/bg.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    padding: px;
+    font-family: "Inter", sans-serif;
 }
 
 .card {

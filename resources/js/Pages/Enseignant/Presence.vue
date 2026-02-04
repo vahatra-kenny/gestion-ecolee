@@ -170,11 +170,11 @@ function enregistrerPresence() {
 <style scoped>
 .page-bg {
     min-height: 100vh;
-    background: linear-gradient(180deg, #66b2ff 0%, #007bff 100%);
-    padding: 32px;
+    background: url("/images/images (3).jpeg") no-repeat center center fixed;
+    background-size: cover;
+    padding: px;
     font-family: "Inter", sans-serif;
 }
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -207,7 +207,7 @@ function enregistrerPresence() {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;
-    background: white;
+    background: rgb(175, 218, 245);
     border-radius: 12px;
     padding: 32px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);

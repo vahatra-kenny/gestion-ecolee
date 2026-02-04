@@ -66,7 +66,8 @@ const form = useForm({
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(180deg, #66b2ff 0%, #007bff 100%);
+    background: url("/images/images (8).jpeg") no-repeat center center fixed;
+    background-size: cover;
     padding: 24px;
 }
 
